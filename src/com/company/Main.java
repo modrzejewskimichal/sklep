@@ -22,21 +22,21 @@ public class Main {
         while (a < 6 || a > 49 || b < 100 || b > 10000);
         if (a >= 6 && a <= 12) {
             c = (b * 1.025) / a;
-            c=c*100;
+            c = c * 100;
             c = Math.round(c);
-            c=c/100;
+            c = c / 100;
             System.out.println(c + "PLN");
         } else if (a >= 13 && a <= 24) {
             d = (b * 1.05) / a;
-            d=d*100;
+            d = d * 100;
             d = Math.round(d);
-            d=d/100;
+            d = d / 100;
             System.out.println(d + "PLN");
         } else if (a >= 25 && a <= 48) {
             e = (b * 1.1) / a;
-            e=e*100;
+            e = e * 100;
             e = Math.round(e);
-            e=e/100;
+            e = e / 100;
             System.out.println(e + "PLN");
         }
         //cena towaru 100-10tys zł
