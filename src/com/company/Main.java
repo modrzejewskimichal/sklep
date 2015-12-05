@@ -39,7 +39,7 @@ public class Main {
             e = e / 100;
             System.out.println(e + "PLN");
         }
-        //cena towaru 100-10tys zł
+        //cena towaru 100-10tys zł android studio
         //oprocentowanie 6-12rat=2.5%, 13-24rat=5%, 25-48rat=10%
         // write your code here
     }
